@@ -8,6 +8,15 @@
 	--dark_menu: black;
 }
 
+/* font-face rule */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('Fonts/Inter Web/Inter-Black.woff2') format('woff2'),
+         url('Fonts/Inter Web/Inter-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* reset */
 * {
 	margin: 0;
@@ -55,6 +64,7 @@ header {
 	& h2 {
 		font-size: 175%;
 		padding: .5em 0 0 0;
+		font-family: 'CustomFont', Arial, sans-serif;
 	}
 	& h3 {
 		font-size: 130%;
